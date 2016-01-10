@@ -10,38 +10,38 @@ X. Du, A. Zare, P. Gader, D. Dranishnikov, ìSpatial and Spectral Unmixing Using
 
 The BCM Unmixing Algorithm runs using the following function:
 
-[Parameters] = BCMParameters(endmembers);
+[Parameters] = BCMParameters(endmembers);  
 [P] = BCM(Xim, Parameters, MethodFlag)
 
-The endmembers input is a 1xM cell of endmember samples (known) where M is the number of endmembers.
-            DxNumESamples double matrix within each cell, where D is the number of spectral bands and NumESamples is the number of endmember samples.
+The endmembers input is a 1xM cell of endmember samples (known) where M is the number of endmembers.  
 
-The Xim input is a N1xN2xD matrix of N1xN2 image data points of dimensionality D.
+DxNumESamples double matrix within each cell, where D is the number of spectral bands and NumESamples is the number of endmember samples.  
 
-The parameters input is a struct with the following fields:
- Parameters - struct - The struct contains the following fields:
-               % These parameters are user defined (can be modified)
-                   1. NumberIterations: Number of iterations
-                   2. K: Number of nearest neighbors
-                   3. c: Number of clusters for spatial K-means
-                   4. SigV: Weighting on SigmaV
-                   5. SigM: Weighting on SigmaMean
-                   6. s: Scaling parameter for location information
-                   7. ECovariance: diagonal covariance on endmembers, currently same for all endmembers
-               % These parameters are computed from input data and known
-               endmembers (does not need modification)
-                   8. MaxNumEMs, M: Number of endmembers
-                   9. bandnum, D: Number of spectral bands/dimensions
-                  10. N: Number of pixels(input data points)
-                  11. Emean: Mean of endmember samples
-                  12. BetaParameters: parameters for fitting a Beta distribution to each band of each endmember
-               *Parameters can be modified in [Parameters] = BCMParameters(endmembers) function.
+The Xim input is a N1xN2xD matrix of N1xN2 image data points of dimensionality D.  
 
-The MethodFlag input is an 1x1 integer, choose from 1, 2, 3, 4, where each number indicates one BCM approach:
-           1. BCM-Spectral-QP (Quadratic Programming Approach)
-           2. BCM-Spectral-MH (Metropolis-Hastings Sampling Approach)
-           3. BCM-Spatial-QP
-           4. BCM-Spatial-MH
+The parameters input is a struct with the following fields:  
+ Parameters - struct - The struct contains the following fields:  
+               % These parameters are user defined (can be modified)  
+                   1. NumberIterations: Number of iterations  
+                   2. K: Number of nearest neighbors  
+                   3. c: Number of clusters for spatial K-means  
+                   4. SigV: Weighting on SigmaV  
+                   5. SigM: Weighting on SigmaMean  
+                   6. s: Scaling parameter for location information  
+                   7. ECovariance: diagonal covariance on endmembers, currently same for all endmembers  
+               % These parameters are computed from input data and known endmembers (does not need modification)  
+                   8. MaxNumEMs, M: Number of endmembers  
+                   9. bandnum, D: Number of spectral bands/dimensions  
+                  10. N: Number of pixels(input data points)  
+                  11. Emean: Mean of endmember samples  
+                  12. BetaParameters: parameters for fitting a Beta distribution to each band of each endmember  
+               *Parameters can be modified in [Parameters] = BCMParameters(endmembers) function.  
+
+The MethodFlag input is an 1x1 integer, choose from 1, 2, 3, 4, where each number indicates one BCM approach:  
+           1. BCM-Spectral-QP (Quadratic Programming Approach)  
+           2. BCM-Spectral-MH (Metropolis-Hastings Sampling Approach)  
+           3. BCM-Spatial-QP  
+           4. BCM-Spatial-MH  
 
 
 ********************************************************************* 
@@ -62,10 +62,10 @@ Description of files:
 ***********************************************************************
 
 
- Authors: Xiaoxiao Du, Alina Zare
- University of Missouri, Department of Electrical and Computer Engineering
- Email Address: xdy74@mail.missouri.edu; zarea@missouri.edu
- Latest Revision: November 3, 2014
+ Authors: Xiaoxiao Du, Alina Zare  
+ University of Missouri, Department of Electrical and Computer Engineering  
+ Email Address: xdy74@mail.missouri.edu; zarea@missouri.edu  
+ Latest Revision: November 3, 2014  
 
 This code uses Matlab Statistics Toolbox and Matlab Optimization Toolbox. 
 
