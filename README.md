@@ -1,8 +1,9 @@
 # BetaCompositionalModel
 
-BCM (Beta Compositional Model) Spectral and Spatial Unmixing Algorithms ReadMe
+Matlab implementation of the Beta Compositional Model algorithm for Hyperspectral unmixing. See related paper, doi: 10.1109/JSTARS.2014.2330347
+***************************************************************
 
-***NOTE: If the BCM Unmixing Algorithm is used in any publication or presentation, the following reference must be cited:
+NOTE: If the BCM Unmixing Algorithm is used in any publication or presentation, the following reference must be cited:
 
 X. Du, A. Zare, P. Gader, D. Dranishnikov, ìSpatial and Spectral Unmixing Using the Beta Compositional Model,î  IEEE Journal of Selected Topics in Applied Earth Observations and Remote Sensing, vol. 7, no. 6, pp. 1994-2003, June 2014.
 
