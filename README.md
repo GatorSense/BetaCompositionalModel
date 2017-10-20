@@ -68,6 +68,6 @@ Description of files:
  Email Address: xdy74@mail.missouri.edu; zarea@missouri.edu  
  Latest Revision: November 3, 2014  
 
-This code uses Matlab Statistics Toolbox and Matlab Optimization Toolbox. 
+This code uses MATLAB Statistics Toolbox and Matlab Optimization Toolbox. 
 
 
