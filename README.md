@@ -1,6 +1,6 @@
 # BetaCompositionalModel
 
-Matlab implementation of the Beta Compositional Model algorithm for Hyperspectral unmixing. See related paper, doi: 10.1109/JSTARS.2014.2330347
+MATLAB implementation of the Beta Compositional Model algorithm for Hyperspectral unmixing. See related paper, doi: 10.1109/JSTARS.2014.2330347
 ***************************************************************
 
 ***NOTE: If the BCM Unmixing Algorithm is used in any publication or presentation, the following reference must be cited:
