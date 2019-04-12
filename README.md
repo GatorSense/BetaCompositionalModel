@@ -3,6 +3,9 @@
 MATLAB implementation of the Beta Compositional Model algorithm for Hyperspectral unmixing. See related paper, doi: 10.1109/JSTARS.2014.2330347
 ***************************************************************
 
+***If this code is used, cite it: Xiaoxiao Du, & Alina Zare. (2019, April 12). GatorSense/BetaCompositionalModel: Initial Release (Version v1.0). Zenodo. http://doi.org/10.5281/zenodo.2638288
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.2638288.svg)](https://doi.org/10.5281/zenodo.2638288)
+
 ***NOTE: If the BCM Unmixing Algorithm is used in any publication or presentation, the following reference must be cited:
 
 X. Du, A. Zare, P. Gader, D. Dranishnikov, ìSpatial and Spectral Unmixing Using the Beta Compositional Model,î  IEEE Journal of Selected Topics in Applied Earth Observations and Remote Sensing, vol. 7, no. 6, pp. 1994-2003, June 2014.
